@@ -13,6 +13,6 @@ while (c < 10)
 putchar(48 + c);
 c++;
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
