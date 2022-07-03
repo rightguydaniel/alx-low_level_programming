@@ -11,8 +11,8 @@ int c = 0;
 while (c < 10)
 {
 putchar(48 + c);
-putchar('\n');
 c++;
 }
+putchar("\n");
 return (0);
 }
