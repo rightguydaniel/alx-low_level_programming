@@ -9,11 +9,17 @@
 int main(void)
 {
 	char c = 'a';
+	char cap = 'A';
 
 	while (c <= 'z')
 	{
 		putchar(c);
 		c++;
+	}
+	while (cap <= 'Z')
+	{
+		putchar(cap);
+		cap++;
 	}
 	putchar('\n');
 	return (0);
