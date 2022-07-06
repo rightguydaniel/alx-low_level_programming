@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <string.h>
+#include <main.h>
 /**
  * main - main block
  * Description: print _putchar and a new line
