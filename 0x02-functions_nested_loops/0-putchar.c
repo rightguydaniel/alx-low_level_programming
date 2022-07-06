@@ -1,18 +1,14 @@
-#include <main.h>
+#include "main.h"
 /**
- * main - main block
- * Description: print _putchar and a new line
+ * main - prints "_putchar"
  * Return: 0
  */
 int main(void)
 {
-	char a[] = "_putchar";
-	int i;
-
-	for (i = 0; i <= l; i++)
-	{
-		_putchar (a[i]);
-	}
-	_putchar('\n');
-	return (0);
+char ch[8] = "_putchar";
+int i;
+for (i = 0; i < 8; i++)
+_putchar(ch[i]);
+_putchar('\n');
+return (0);
 }
